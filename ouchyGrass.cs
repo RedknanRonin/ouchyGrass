@@ -10,7 +10,8 @@ namespace ouchyGrass
     {
         private static ouchyGrassMod? _instance;
         new public string GetName() => "OuchyGrass";
-            
+        public override string GetVersion() => "0.1";
+
         public bool damagePlayer => true;  // boolean that determines wether to damage or kill player when touching grass
         private FieldInfo isCutField;
 
