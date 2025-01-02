@@ -77,8 +77,6 @@ namespace ouchyGrass
 
         public bool ToggleButtonInsideMenu => throw new NotImplementedException();
 
-        public override string GetVersion() => GetType().Assembly.GetName().Version.ToString();
-
         public ouchyGrassMod() : base("ouchyGrass")
         {
             _instance = this;
